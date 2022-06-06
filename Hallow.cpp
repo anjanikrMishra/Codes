@@ -9,7 +9,7 @@ int main()
     {
         for (int j = 1; j <= m; j++)
         {
-            if (i == n || i == 1 || j == 1 || j == m)
+            if (i == 1 || i == n || j == m || j == 1)
             {
                 cout << "*";
             }
@@ -17,8 +17,8 @@ int main()
             {
                 cout << " ";
             }
-            cout << endl;
         }
+        cout << endl;
     }
 
     return 0;
