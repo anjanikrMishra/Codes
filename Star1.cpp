@@ -12,7 +12,7 @@ void star(int n)
             }
             else
             {
-                cout << "*";
+                cout << "D";
             }
         }
         cout << endl;
@@ -27,7 +27,7 @@ void star(int n)
             }
             else
             {
-                cout << "*";
+                cout << "D";
             }
         }
         cout << endl;
